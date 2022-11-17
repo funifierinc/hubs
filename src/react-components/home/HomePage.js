@@ -141,7 +141,7 @@ export function HomePage() {
           </Column>
         </Container>
       )}
-      {sortedPublicRooms.length > 0 && (
+      {/* {sortedPublicRooms.length > 0 && (
         <Container className={styles.roomsContainer}>
           <h3 className={styles.roomsHeading}>
             <FormattedMessage id="home-page.public--rooms" defaultMessage="Public Rooms" />
@@ -162,8 +162,8 @@ export function HomePage() {
             </MediaGrid>
           </Column>
         </Container>
-      )}
-      {sortedFavoriteRooms.length > 0 && (
+      )} */}
+      {/* {sortedFavoriteRooms.length > 0 && (
         <Container className={styles.roomsContainer}>
           <h3 className={styles.roomsHeading}>
             <FormattedMessage id="home-page.favorite-rooms" defaultMessage="Favorite Rooms" />
@@ -184,7 +184,7 @@ export function HomePage() {
             </MediaGrid>
           </Column>
         </Container>
-      )}
+      )} */}
       <Container>
         <Column center grow>
           <Button thin preset="landing" as="a" href="/link">
